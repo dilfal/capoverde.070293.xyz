@@ -1,0 +1,560 @@
+<!doctype html>
+<html lang="it">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noindex, nofollow">
+<meta name="color-scheme" content="light dark">
+<title>Capo Verde 2026</title>
+<meta name="description" content="Programma di viaggio a São Vicente e Santo Antão, 30 novembre – 12 dicembre 2026.">
+<style>
+:root{
+  --bg:#fbf7f1; --panel:#ffffff; --ink:#1f2a30; --muted:#5d6b73; --line:#e6ddd0;
+  --sea:#0f6f7c; --sea-soft:#dcf1f2; --earth:#b4532a; --earth-soft:#f8e4d8;
+  --ok:#1d7a4a; --ok-soft:#dcf2e5; --warn:#8a5a00; --warn-soft:#fdf0cc; --idle:#55616a; --idle-soft:#e8ecee;
+  --shadow:0 1px 2px rgba(20,30,40,.06),0 6px 20px rgba(20,30,40,.06);
+}
+@media (prefers-color-scheme:dark){
+  :root:not([data-theme="light"]){
+    --bg:#10171b; --panel:#182126; --ink:#e8eef0; --muted:#9aaab2; --line:#2a373d;
+    --sea:#5cc4d0; --sea-soft:#13333a; --earth:#f0966b; --earth-soft:#3a251a;
+    --ok:#6fd49a; --ok-soft:#143223; --warn:#f2c35b; --warn-soft:#3a2f10; --idle:#aab6bc; --idle-soft:#222e34;
+    --shadow:none;
+  }
+}
+:root[data-theme="dark"]{
+  --bg:#10171b; --panel:#182126; --ink:#e8eef0; --muted:#9aaab2; --line:#2a373d;
+  --sea:#5cc4d0; --sea-soft:#13333a; --earth:#f0966b; --earth-soft:#3a251a;
+  --ok:#6fd49a; --ok-soft:#143223; --warn:#f2c35b; --warn-soft:#3a2f10; --idle:#aab6bc; --idle-soft:#222e34;
+  --shadow:none;
+}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth;scroll-padding-top:64px}
+body{margin:0;background:var(--bg);color:var(--ink);font:16px/1.6 system-ui,-apple-system,"Segoe UI",Roboto,sans-serif;-webkit-text-size-adjust:100%}
+a{color:var(--sea)}
+img{max-width:100%;height:auto;display:block}
+.wrap{max-width:980px;margin:0 auto;padding:0 16px}
+
+.hero{position:relative;color:#fff;background:#0b3d44 url("img/mindelo.jpg") center/cover no-repeat;min-height:340px;display:flex;align-items:flex-end}
+.hero::before{content:"";position:absolute;inset:0;background:linear-gradient(180deg,rgba(0,0,0,.15) 0%,rgba(4,30,36,.78) 100%)}
+.hero .wrap{position:relative;width:100%;padding-top:80px;padding-bottom:28px}
+.hero h1{font-size:clamp(2rem,6vw,3.4rem);line-height:1.1;margin:0 0 6px;letter-spacing:-.02em}
+.hero p{margin:0;font-size:1.1rem;opacity:.95;max-width:46ch}
+.hero small{display:block;margin-top:10px;opacity:.8}
+
+nav.top{position:sticky;top:0;z-index:5;background:color-mix(in srgb,var(--bg) 88%,transparent);backdrop-filter:blur(8px);border-bottom:1px solid var(--line)}
+nav.top .wrap{display:flex;gap:4px;overflow-x:auto;padding-top:8px;padding-bottom:8px;scrollbar-width:none}
+nav.top a{white-space:nowrap;text-decoration:none;color:var(--ink);padding:6px 12px;border-radius:999px;font-size:.92rem}
+nav.top a:hover{background:var(--sea-soft);color:var(--sea)}
+
+main{padding-bottom:48px}
+section{margin-top:44px}
+h2{font-size:1.6rem;line-height:1.2;margin:0 0 6px;letter-spacing:-.01em}
+h2+p.lead{margin:0 0 16px;color:var(--muted)}
+h3{font-size:1.15rem;margin:22px 0 6px}
+p{margin:0 0 10px}
+ul{margin:0 0 10px;padding-left:1.2em}
+li{margin:3px 0}
+.muted{color:var(--muted)}
+
+.facts{display:grid;grid-template-columns:repeat(auto-fit,minmax(150px,1fr));gap:12px;margin-top:22px}
+.fact{background:var(--panel);border:1px solid var(--line);border-radius:14px;padding:14px 16px;box-shadow:var(--shadow)}
+.fact b{display:block;font-size:1.5rem;line-height:1.15;color:var(--sea)}
+.fact span{font-size:.9rem;color:var(--muted)}
+
+.legend{display:flex;flex-wrap:wrap;gap:8px 14px;align-items:center;font-size:.92rem;color:var(--muted);margin:14px 0 0}
+.chip{display:inline-block;font-size:.78rem;font-weight:600;line-height:1;padding:5px 9px;border-radius:999px;white-space:nowrap;vertical-align:middle}
+.chip.fisso{background:var(--ok-soft);color:var(--ok)}
+.chip.proposta{background:var(--warn-soft);color:var(--warn)}
+.chip.decidere{background:var(--idle-soft);color:var(--idle)}
+
+.tablewrap{overflow-x:auto;border:1px solid var(--line);border-radius:14px;background:var(--panel);box-shadow:var(--shadow)}
+table{border-collapse:collapse;width:100%;font-size:.95rem}
+@media(max-width:560px){th,td{padding:8px 10px}table{font-size:.88rem}}
+th,td{text-align:left;padding:10px 14px;border-bottom:1px solid var(--line);vertical-align:top}
+th{font-size:.8rem;text-transform:uppercase;letter-spacing:.04em;color:var(--muted);background:color-mix(in srgb,var(--panel) 70%,var(--bg))}
+tr:last-child td{border-bottom:0}
+
+.days{display:grid;gap:18px}
+.day{background:var(--panel);border:1px solid var(--line);border-radius:18px;overflow:hidden;box-shadow:var(--shadow)}
+.day .head{display:flex;gap:14px;align-items:center;padding:14px 18px;border-bottom:1px solid var(--line)}
+.date{flex:none;text-align:center;background:var(--sea-soft);color:var(--sea);border-radius:12px;padding:6px 10px;min-width:64px;line-height:1.1}
+.date b{display:block;font-size:1.4rem}
+.date span{font-size:.72rem;text-transform:uppercase;letter-spacing:.05em}
+.day h3{margin:0;font-size:1.15rem}
+.day .head p{margin:2px 0 0;font-size:.9rem;color:var(--muted)}
+.day .body{padding:14px 18px 6px}
+.day.photo{display:grid}
+@media(min-width:760px){
+  .day.photo{grid-template-columns:minmax(0,1fr) 330px}
+  .day.photo .head,.day.photo .body{grid-column:1}
+  .day.photo .pics{border-left:1px solid var(--line);grid-column:2;grid-row:1 / span 2;display:grid;grid-auto-rows:1fr}
+}
+@media(max-width:759px){ .day.photo .pics{border-top:1px solid var(--line)} }
+figure{margin:0;position:relative;min-height:230px;background:var(--idle-soft);overflow:hidden}
+figure img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover}
+figcaption{position:absolute;left:0;right:0;bottom:0;padding:22px 12px 8px;color:#fff;font-size:.8rem;background:linear-gradient(transparent,rgba(0,0,0,.7))}
+.note{background:var(--earth-soft);border-left:4px solid var(--earth);border-radius:10px;padding:10px 14px;margin:10px 0}
+.note b{color:var(--earth)}
+
+.cols{display:grid;gap:14px}
+@media(min-width:760px){.cols.two{grid-template-columns:1fr 1fr}}
+.card{background:var(--panel);border:1px solid var(--line);border-radius:14px;padding:14px 18px;box-shadow:var(--shadow)}
+.card h3{margin-top:0}
+.small{font-size:.88rem}
+.credits li{font-size:.85rem;color:var(--muted)}
+footer{border-top:1px solid var(--line);padding:22px 0 40px;color:var(--muted);font-size:.9rem}
+</style>
+</head>
+<body>
+
+<header class="hero">
+  <div class="wrap">
+    <h1>Capo Verde</h1>
+    <p>São Vicente e Santo Antão<br>30 novembre – 12 dicembre 2026</p>
+    <small>Aggiornato il 14 novembre 2026</small>
+  </div>
+</header>
+
+<nav class="top" aria-label="Sezioni">
+  <div class="wrap">
+    <a href="#voli">Voli</a>
+    <a href="#programma">Programma</a>
+    <a href="#giorni">Giorno per giorno</a>
+    <a href="#musica">Musica dal vivo</a>
+    <a href="#luoghi">Luoghi</a>
+    <a href="#pratico">Informazioni pratiche</a>
+    <a href="#fonti">Fonti</a>
+  </div>
+</nav>
+
+<main class="wrap">
+
+  <div class="facts" aria-label="In breve">
+    <div class="fact"><b>13 giorni</b><span>dal 30 novembre al 12 dicembre</span></div>
+    <div class="fact"><b>2 isole</b><span>São Vicente e Santo Antão</span></div>
+    <div class="fact"><b>4 persone</b><span>solo bagaglio a mano piccolo</span></div>
+    <div class="fact"><b>4 voli</b><span>già prenotati</span></div>
+  </div>
+
+  <p class="legend">
+    <span><span class="chip fisso">Fisso</span> deciso o prenotato</span>
+    <span><span class="chip proposta">Proposta</span> suggerito in base alle fonti</span>
+    <span><span class="chip decidere">Da decidere</span> ancora aperto</span>
+  </p>
+
+  <section id="voli">
+    <h2>Voli</h2>
+    <p class="lead">Prenotati. Orari locali, controllati sulle prenotazioni il 14 novembre 2026.</p>
+    <div class="tablewrap">
+      <table>
+        <thead><tr><th>Data</th><th>Volo</th><th>Tratta</th><th>Partenza</th><th>Arrivo</th></tr></thead>
+        <tbody>
+          <tr><td>30 novembre</td><td>Ryanair FR 789</td><td>Bologna → Lisbona</td><td>05:45</td><td>07:50</td></tr>
+          <tr><td>1° dicembre</td><td>easyJet EJU7597</td><td>Lisbona (T1) → São Vicente</td><td>06:10</td><td>09:30</td></tr>
+          <tr><td>12 dicembre</td><td>easyJet EJU7598</td><td>São Vicente → Lisbona</td><td>10:45</td><td>16:00</td></tr>
+          <tr><td>12 dicembre</td><td>Ryanair FR 790</td><td>Lisbona → Bologna</td><td>19:00</td><td>22:50</td></tr>
+        </tbody>
+      </table>
+    </div>
+    <p class="small muted" style="margin-top:10px">Fusi orari: Capo Verde è un’ora indietro rispetto a Lisbona e due rispetto all’Italia.</p>
+  </section>
+
+  <section id="programma">
+    <h2>Dove siamo quando</h2>
+    <p class="lead">Il traghetto fa solo due corse al giorno e il volo di ritorno parte da São Vicente: per questo si rientra il 10 e non l’11.</p>
+    <div class="tablewrap">
+      <table>
+        <thead><tr><th>Quando</th><th>Dove</th><th>Stato</th></tr></thead>
+        <tbody>
+          <tr><td>30 novembre</td><td>Lisbona (arrivo alle 07:50, notte lì)</td><td><span class="chip fisso">Volo fisso</span> <span class="chip decidere">Alloggio</span></td></tr>
+          <tr><td>1–3 dicembre</td><td>Mindelo, São Vicente (3 notti nello stesso alloggio)</td><td><span class="chip fisso">Fisso</span> <span class="chip decidere">Alloggio</span></td></tr>
+          <tr><td>4 dicembre</td><td>Traghetto del mattino per Santo Antão</td><td><span class="chip fisso">Fisso</span></td></tr>
+          <tr><td>4–7 dicembre</td><td>Santo Antão, base a Paúl (4 notti)</td><td><span class="chip proposta">Proposta</span></td></tr>
+          <tr><td>8–9 dicembre</td><td>Santo Antão, base a Ponta do Sol (2 notti)</td><td><span class="chip proposta">Proposta</span></td></tr>
+          <tr><td>10 dicembre</td><td>Traghetto di ritorno, notte a Mindelo</td><td><span class="chip fisso">Fisso</span> <span class="chip decidere">Corsa</span></td></tr>
+          <tr><td>11 dicembre</td><td>Mindelo, giorno libero</td><td><span class="chip fisso">Fisso</span> <span class="chip decidere">Alloggio</span></td></tr>
+          <tr><td>12 dicembre</td><td>São Vicente → Lisbona → Bologna</td><td><span class="chip fisso">Voli fissi</span></td></tr>
+        </tbody>
+      </table>
+    </div>
+  </section>
+
+  <section id="giorni">
+    <h2>Giorno per giorno</h2>
+    <p class="lead">Ogni giorno ha una parte fissa (voli, traghetti) e una proposta. I prezzi in escudi (CVE) hanno l’equivalente in euro tra parentesi, con il cambio fisso 1 € = 110,265 CVE.</p>
+
+    <div class="days">
+
+      <article class="day">
+        <div class="head">
+          <div class="date"><b>30</b><span>nov</span></div>
+          <div><h3>Lisbona</h3><p><span class="chip fisso">Volo fisso</span> <span class="chip decidere">Alloggio da decidere</span></p></div>
+        </div>
+        <div class="body">
+          <ul>
+            <li>Ryanair FR 789 da Bologna alle 05:45, arrivo a Lisbona alle 07:50: tutta la giornata in città.</li>
+            <li><b>Notte</b> (proposta): Alvalade II Airport Guest House, la più vicina all’aeroporto. In alternativa un letto in centro, per esempio Castilho 63 Hostel &amp; Suites o Secret Patio Lisbon, più il taxi delle 4 di notte (circa 5 € a testa). Prezzi e disponibilità da controllare.</li>
+          </ul>
+          <div class="note"><b>Sveglia presto il 1° dicembre.</b> Il volo parte alle 06:10: bisogna essere in aeroporto tra le 04:00 e le 04:30. La metro apre alle 06:30, quindi serve un taxi o un Bolt (dal centro circa 10–20 €, di più di notte e nei festivi; il 1° dicembre in Portogallo è festivo).</div>
+        </div>
+      </article>
+
+      <article class="day photo">
+        <div class="head">
+          <div class="date"><b>1</b><span>dic</span></div>
+          <div><h3>Arrivo a São Vicente</h3><p><span class="chip fisso">Volo fisso</span> <span class="chip proposta">Tartarughe e Laginha</span></p></div>
+        </div>
+        <div class="body">
+          <ul>
+            <li>easyJet EJU7597 da Lisbona (Terminal 1) alle 06:10, arrivo alle 09:30 ora locale (4 ore e 20 di volo): la giornata è quasi tutta libera.</li>
+            <li>Dall’aeroporto a Mindelo: 10–20 minuti. Taxi circa 1.100 CVE (10 €) da concordare prima di salire; minibus collettivo circa 120 CVE (1 €). Una sola fonte: prezzi da confermare sul posto.</li>
+            <li><b>Tartarughe a São Pedro</b> (proposta), a circa 1–1,5 km dall’aeroporto. Si esce in barca dalla spiaggia e si fa snorkeling dalla barca: bisogna saper nuotare bene. Con i pescatori sul posto circa 25 € a testa; con un operatore circa 70–75 € a testa per 3 ore. In acqua con le tartarughe si resta al massimo 25 minuti. Alcuni barcaioli danno loro da mangiare, pratica criticata: meglio chiedere prima. Presenza a dicembre e stato del mare non sono confermati da fonti indipendenti; se non si riesce, si sposta al 3 dicembre.</li>
+            <li><b>Pomeriggio</b>: Mindelo e Praia da Laginha, a circa 20 minuti a piedi dal porto, baia riparata adatta al bagno (nei pomeriggi d’inverno il vento increspa il mare).</li>
+            <li><b>Alloggio</b>: 3 notti nello stesso posto (1, 2 e 3 dicembre). Idea: Simabo’s Backpackers’ Hostel, che aiuta gli animali randagi (<a href="https://www.booking.com/Share-moY2KN" rel="noopener noreferrer" target="_blank">scheda su Booking</a>); prezzo e disponibilità da controllare.</li>
+          </ul>
+        </div>
+        <div class="pics two">
+          <figure><img src="img/laginha.jpg" alt="Spiaggia di Praia da Laginha a Mindelo, sabbia chiara e mare turchese" loading="lazy"><figcaption>Praia da Laginha, Mindelo</figcaption></figure>
+          <figure><img src="img/tartaruga.jpg" alt="Tartaruga marina che nuota" loading="lazy"><figcaption>Tartaruga marina (foto d’archivio, non scattata a Capo Verde)</figcaption></figure>
+        </div>
+      </article>
+
+      <article class="day photo">
+        <div class="head">
+          <div class="date"><b>2</b><span>dic</span></div>
+          <div><h3>Giro del lato est di São Vicente</h3><p><span class="chip proposta">Proposta</span></p></div>
+        </div>
+        <div class="body">
+          <ul>
+            <li>In taxi o in macchina per la giornata: <b>Monte Verde</b> al mattino (la cima, circa 750 m, panorama; spesso tra le nuvole, meglio presto), <b>Salamansa</b> (kitesurf, mare forte), <b>Baía das Gatas</b> (laguna riparata, adatta al bagno), <b>Praia Grande</b> e <b>Sandy Beach</b> solo da vedere (correnti), pranzo a <b>Calhau</b> (villaggio di pescatori) e <b>Viana Volcano</b> (cratere spento, salita breve).</li>
+            <li>Costo: taxi per la giornata diviso in quattro, prezzo da concordare (non trovato nelle fonti). In alternativa minibus collettivi verso Baía das Gatas e Calhau, con meno tappe (da verificare sul posto).</li>
+            <li>Eventuale: <b>Santa Luzia</b>, riserva naturale disabitata di fronte a São Vicente. Non risultano operatori né orari in rete e serve un permesso dell’autorità ambientale: si fa solo se sul posto si trova una barca autorizzata e il mare lo permette.</li>
+          </ul>
+        </div>
+        <div class="pics">
+          <figure><img src="img/gatas.jpg" alt="Costa di São Vicente con onde e montagne, tra Baía das Gatas e Calhau" loading="lazy"><figcaption>La costa tra Calhau e Baía das Gatas</figcaption></figure>
+        </div>
+      </article>
+
+      <article class="day">
+        <div class="head">
+          <div class="date"><b>3</b><span>dic</span></div>
+          <div><h3>Mindelo</h3><p><span class="chip proposta">Proposta</span></p></div>
+        </div>
+        <div class="body">
+          <ul>
+            <li>Centro, mercato del pesce, Laginha. Giorno di riserva per le tartarughe.</li>
+            <li>Prelevare gli escudi per Santo Antão, dove i bancomat sono pochi.</li>
+            <li><b>Sera</b>: musica dal vivo, serata corta perché il traghetto è alle 07:00. Casa da Morna (prenotando) oppure Nho Djunga, vedi <a href="#musica">Musica dal vivo</a>.</li>
+          </ul>
+        </div>
+      </article>
+
+      <article class="day photo">
+        <div class="head">
+          <div class="date"><b>4</b><span>dic</span></div>
+          <div><h3>Traghetto e strada di montagna verso Paúl</h3><p><span class="chip fisso">Traghetto fisso</span> <span class="chip proposta">Taxi e soste</span></p></div>
+        </div>
+        <div class="body">
+          <ul>
+            <li><b>Traghetto da Mindelo a Porto Novo</b>: partenza alle 07:00 (CV Interilhas) o tra le 07:00 e le 08:00 (Nôs Ferry, le fonti non concordano); circa un’ora di traversata. In porto un’ora prima. Circa 1.511 CVE (14 €) a persona, prezzo da confermare.</li>
+            <li><b>Dal porto</b> (proposta): taxi privato sulla vecchia strada di montagna, con soste al bordo del <b>cratere di Cova</b> e al belvedere di <b>Delgadinho</b>, fino a Paúl. Circa 4.000–4.500 CVE (36–41 €) in tutto, da concordare prima. In minibus sulla costiera sarebbero 400–500 CVE (3,60–4,50 €) a testa, ma senza i due belvedere.</li>
+            <li>Notte a Paúl (4 notti, dal 4 al 7): alloggio da decidere.</li>
+          </ul>
+        </div>
+        <div class="pics">
+          <figure><img src="img/cova.jpg" alt="Cratere di Cova a Santo Antão, con campi terrazzati e pini" loading="lazy"><figcaption>Il cratere di Cova</figcaption></figure>
+        </div>
+      </article>
+
+      <article class="day photo">
+        <div class="head">
+          <div class="date"><b>5–7</b><span>dic</span></div>
+          <div><h3>Valle di Paúl</h3><p><span class="chip proposta">Proposta</span></p></div>
+        </div>
+        <div class="body">
+          <ul>
+            <li><b>Un giorno per la valle</b>, scegliendo quello con il cielo più pulito. Chi se la sente fa la discesa dal cratere di Cova: da 7 a 13 km secondo il punto d’arrivo, 1.200–1.400 m di discesa ripida, da 3 a 6 ore. Non è tecnica ma stanca gambe e ginocchia; sconsigliata a chi soffre di vertigini. Chi non se la sente sale in minibus in cima alla valle e fa a piedi solo il tratto basso (da verificare sul posto). A Cova si sale in minibus collettivo da Ribeira Grande (circa 4 €).</li>
+            <li><b>Un giorno leggero</b>: costa, paese, distilleria se è aperta. La produzione di grogue va da gennaio a maggio, quindi a dicembre gli impianti sono probabilmente fermi.</li>
+            <li><b>Un giorno di riserva</b>, per il maltempo o per riposare.</li>
+            <li>Musica: a Vila das Pombas il locale Atelier ha musica nel fine settimana (venerdì 4 o sabato 5), da confermare sul posto; nella valle di sera è tutto tranquillo.</li>
+          </ul>
+        </div>
+        <div class="pics">
+          <figure><img src="img/paul.jpg" alt="Montagne verdi e nuvole sulla valle di Paúl" loading="lazy"><figcaption>La valle di Paúl</figcaption></figure>
+        </div>
+      </article>
+
+      <article class="day photo">
+        <div class="head">
+          <div class="date"><b>8</b><span>dic</span></div>
+          <div><h3>Da Paúl a Ponta do Sol</h3><p><span class="chip proposta">Proposta</span></p></div>
+        </div>
+        <div class="body">
+          <ul>
+            <li>Minibus fino a Ribeira Grande, deviazione nella valle di <b>Xôxô</b> per una passeggiata facile, poi Ponta do Sol.</li>
+            <li>Notte a Ponta do Sol (2 notti, 8 e 9 dicembre): alloggio da decidere.</li>
+            <li>Minibus collettivi (aluguer): tra paesi vicini circa 100 CVE (1 €); lungo le tratte principali circa 400–500 CVE (3,60–4,50 €) a persona. Una corsa ogni circa 30 minuti sulle tratte principali.</li>
+          </ul>
+        </div>
+        <div class="pics">
+          <figure><img src="img/pontadosol.jpg" alt="Il paese di Ponta do Sol su una punta sul mare" loading="lazy"><figcaption>Ponta do Sol</figcaption></figure>
+        </div>
+      </article>
+
+      <article class="day photo">
+        <div class="head">
+          <div class="date"><b>9</b><span>dic</span></div>
+          <div><h3>Fontainhas</h3><p><span class="chip proposta">Proposta</span></p></div>
+        </div>
+        <div class="body">
+          <ul>
+            <li>A piedi da Ponta do Sol a Fontainhas e ritorno: 3,4 km a tratta, circa 2 ore in tutto.</li>
+            <li>Il sentiero completo fino a Cruzinha (circa 13 km, 5–6 ore) solo per chi vuole: i mezzi per tornare sono pochi e non ce ne sono dopo le 16:00. Si può andare a Cruzinha in minibus al mattino e tornare a piedi.</li>
+          </ul>
+        </div>
+        <div class="pics">
+          <figure><img src="img/fontainhas.jpg" alt="Sentiero con muretto di pietra verso Fontainhas, villaggio sulle pareti della gola" loading="lazy"><figcaption>Il sentiero verso Fontainhas</figcaption></figure>
+        </div>
+      </article>
+
+      <article class="day">
+        <div class="head">
+          <div class="date"><b>10</b><span>dic</span></div>
+          <div><h3>Ritorno a São Vicente</h3><p><span class="chip fisso">Fisso</span> <span class="chip decidere">Corsa da scegliere</span></p></div>
+        </div>
+        <div class="body">
+          <ul>
+            <li><b>Traghetto da Porto Novo a Mindelo</b>: al mattino (09:00 o 10:00) o al pomeriggio (16:00 o 17:00), secondo la compagnia.</li>
+            <li>Proposta: la corsa del pomeriggio, partendo da Ponta do Sol verso le 13:30 (minibus fino a Porto Novo circa 1.100 CVE (10 €) a testa, circa un’ora). Se la corsa salta, resta tutto l’11 per rientrare.</li>
+            <li><b>Sera</b>: musica dal vivo a Mindelo, è giovedì. Nho Djunga o Pizzeria O Cocktail.</li>
+          </ul>
+        </div>
+      </article>
+
+      <article class="day">
+        <div class="head">
+          <div class="date"><b>11</b><span>dic</span></div>
+          <div><h3>Mindelo, giorno libero</h3><p><span class="chip proposta">Proposta</span></p></div>
+        </div>
+        <div class="body">
+          <ul>
+            <li>Giorno libero e di riserva per quello che è saltato prima (tartarughe, Santa Luzia, traghetto). Di giorno: il nucleo museale dedicato a Cesária Évora nella Casa do Artista (ingresso 3–4 € secondo le fonti, orari non trovati).</li>
+            <li><b>Sera</b>: la serata di musica principale, è venerdì. Casa da Morna (prenotando), poi Jazzy Bird o Colombinho.</li>
+            <li>Ultima notte prima del volo.</li>
+          </ul>
+        </div>
+      </article>
+
+      <article class="day">
+        <div class="head">
+          <div class="date"><b>12</b><span>dic</span></div>
+          <div><h3>Rientro</h3><p><span class="chip fisso">Voli fissi</span></p></div>
+        </div>
+        <div class="body">
+          <ul>
+            <li>easyJet EJU7598 da São Vicente alle 10:45, arrivo a Lisbona alle 16:00. Poi Ryanair FR 790 da Lisbona alle 19:00, arrivo a Bologna alle 22:50.</li>
+          </ul>
+          <div class="note"><b>Scalo a Lisbona di 3 ore, con biglietti separati.</b> Se il primo volo ritarda, il secondo non aspetta e non è rimborsato. In mezzo ci sono il controllo passaporti (si arriva da fuori Schengen; nel 2026 a Lisbona code di 30–60 minuti, con punte più lunghe), la navetta gratuita dal Terminal 1 al Terminal 2, da cui parte Ryanair, e i controlli di sicurezza. Tre ore bastano se il primo volo è puntuale.</div>
+        </div>
+      </article>
+
+    </div>
+  </section>
+
+  <section id="musica">
+    <h2>Musica dal vivo</h2>
+    <p class="lead">Mindelo è la città della musica di Capo Verde (morna e coladeira). Le sere di punta vanno da giovedì a domenica, con il massimo venerdì e sabato; la musica comincia di solito dopo le 21:00. Molti bar non fanno pagare l’ingresso, qualcuno chiede un piccolo supplemento.</p>
+    <div class="cols two">
+      <div class="card">
+        <h3>Le sere</h3>
+        <ul>
+          <li><b>Giovedì 3</b>: serata corta, il traghetto è alle 07:00.</li>
+          <li><b>Giovedì 10</b> e <b>venerdì 11</b>: le due serate vere (il volo del 12 è alle 10:45).</li>
+          <li><b>Martedì 1 e mercoledì 2</b>: sere deboli; musica a cena, se c’è.</li>
+          <li>Concerti in programma tra il 1° e l’11 dicembre: nessuno trovato. Non è chiaro se il Centro Cultural do Mindelo sia di nuovo aperto dopo i lavori.</li>
+        </ul>
+      </div>
+      <div class="card">
+        <h3>Santo Antão</h3>
+        <p>Poca musica. A Vila das Pombas (Paúl) il locale Atelier ha musica nel fine settimana; a Ponta do Sol solo qualche gruppo occasionale nel fine settimana, e lì si è di martedì e mercoledì.</p>
+      </div>
+    </div>
+    <h3>Locali a Mindelo</h3>
+    <div class="tablewrap">
+      <table>
+        <thead><tr><th>Locale</th><th>Musica</th><th>Quando</th><th>Note</th></tr></thead>
+        <tbody>
+          <tr><td>Casa da Morna</td><td>Morna acustica</td><td>Giovedì, venerdì e sabato (una fonte dice solo venerdì)</td><td>Sul lungomare. Prenotare su <a href="https://casadamorna.com" rel="noopener noreferrer" target="_blank">casadamorna.com</a> o arrivare prima delle 21:00. Spesa stimata circa 12 € a testa.</td></tr>
+          <tr><td>Nho Djunga</td><td>Morna</td><td>Da giovedì a domenica; aperto dal martedì dalle 19:00</td><td>Vicino a Praça Nova. Ingresso non trovato.</td></tr>
+          <tr><td>Jazzy Bird</td><td>Jazz e musica capoverdiana</td><td>Mercoledì e venerdì le serate migliori</td><td>Aperto dalle 18:00 circa, chiuso la domenica.</td></tr>
+          <tr><td>Pizzeria O Cocktail</td><td>Morna</td><td>Da giovedì a domenica</td><td>Dato senza data.</td></tr>
+          <tr><td>Colombinho</td><td>Morna</td><td>Venerdì</td><td></td></tr>
+          <tr><td>Casa Tchicau</td><td>Musica a cena</td><td>Ogni sera, secondo una guida</td><td>Da confermare.</td></tr>
+          <tr><td>Nautilus</td><td>Musica a cena</td><td>Spesso, non garantita</td><td></td></tr>
+          <tr><td>La Pergola</td><td>Varia</td><td>Regolarmente, giorni non indicati</td><td>Presso l’Alliance Française.</td></tr>
+          <tr><td>Caravela</td><td>Discoteca</td><td>Fine settimana, dopo le 23:00</td><td>Vicino a Laginha. Ingresso circa 500 CVE (4,50 €).</td></tr>
+        </tbody>
+      </table>
+    </div>
+    <p class="small muted" style="margin-top:10px">Giorni e orari vengono da guide del 2025–2026, non dai locali: conviene scrivere o telefonare prima.</p>
+  </section>
+
+  <section id="luoghi">
+    <h2>Luoghi</h2>
+    <p class="lead">I 18 luoghi salvati sulla mappa delle due isole, con la valutazione per questo viaggio. <a href="https://maps.app.goo.gl/vMGsBBRBeGpUFCs77" rel="noopener noreferrer" target="_blank">Apri la mappa</a>.</p>
+    <div class="cols two">
+      <div>
+        <h3 style="margin-top:0">São Vicente</h3>
+        <div class="tablewrap">
+          <table style="min-width:0">
+            <thead><tr><th>Luogo</th><th>Valutazione</th></tr></thead>
+            <tbody>
+              <tr><td>Mindelo</td><td>Sì: la base. Centro e mercato del pesce.</td></tr>
+              <tr><td>Laginha Beach</td><td>Sì: la spiaggia per il bagno, a piedi dal centro.</td></tr>
+              <tr><td>São Pedro</td><td>Sì: tartarughe, accanto all’aeroporto.</td></tr>
+              <tr><td>Monte Verde</td><td>Sì: mezza giornata, panorama sull’isola e su Santa Luzia.</td></tr>
+              <tr><td>Baía das Gatas</td><td>Sì: laguna riparata, secondo bagno sicuro dell’isola.</td></tr>
+              <tr><td>Calhau</td><td>Sì: villaggio di pescatori, sosta per il pranzo.</td></tr>
+              <tr><td>Viana Volcano</td><td>Sì, se si è già a Calhau.</td></tr>
+              <tr><td>Praia Grande</td><td>Solo da vedere: mare con correnti.</td></tr>
+              <tr><td>Sandy Beach</td><td>Solo da vedere: zona di surf, stesse cautele.</td></tr>
+              <tr><td>Salamansa</td><td>Facoltativa: kitesurf, mare forte.</td></tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+      <div>
+        <h3 style="margin-top:0">Santo Antão</h3>
+        <div class="tablewrap">
+          <table style="min-width:0">
+            <thead><tr><th>Luogo</th><th>Valutazione</th></tr></thead>
+            <tbody>
+              <tr><td>Cova Crater</td><td>Sì: punto di partenza della discesa verso Paúl.</td></tr>
+              <tr><td>Paúl Valley Trail</td><td>Sì: il cuore della parte a Paúl; si può fare solo il tratto basso.</td></tr>
+              <tr><td>Delgadinho</td><td>Sì, di passaggio: belvedere sulla vecchia strada di montagna.</td></tr>
+              <tr><td>Ribeira Grande</td><td>Di passaggio: nodo dei minibus, non una meta.</td></tr>
+              <tr><td>Xôxô</td><td>Sì: valle verde, passeggiata facile.</td></tr>
+              <tr><td>Ponta do Sol</td><td>Sì: seconda base proposta.</td></tr>
+              <tr><td>Fontainhas</td><td>Sì: a piedi da Ponta do Sol, circa 2 ore tra andata e ritorno.</td></tr>
+              <tr><td>Tarrafal de Monte Trigo</td><td>Fuori programma: spiaggia nera nell’estremo ovest, a diverse ore di strada; servirebbero 2 notti lì.</td></tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="pratico">
+    <h2>Informazioni pratiche</h2>
+    <p class="lead">Dati cercati in rete il 14 novembre 2026; tra parentesi la fonte.</p>
+    <div class="cols two">
+
+      <div class="card">
+        <h3>Documenti d’ingresso</h3>
+        <ul>
+          <li>Visto: non serve per soggiorni fino a 30 giorni (Viaggiare Sicuri, scheda del 16 agosto 2026).</li>
+          <li>Passaporto: Viaggiare Sicuri chiede almeno 3 mesi di validità oltre il soggiorno, la polizia di frontiera capoverdiana 6 mesi. Per sicurezza conviene averne 6.</li>
+          <li>Pre-registrazione EASE su <a href="https://www.ease.gov.cv/" rel="noopener noreferrer" target="_blank">ease.gov.cv</a>, preferibilmente almeno 5 giorni prima della partenza.</li>
+          <li>Tassa di sicurezza aeroportuale: 3.400 CVE (31 €) a persona, da pagare sullo stesso sito o all’arrivo. Non risulta compresa nel biglietto easyJet.</li>
+          <li>Alla frontiera possono chiedere la prova dell’alloggio e del biglietto di ritorno.</li>
+        </ul>
+      </div>
+
+      <div class="card">
+        <h3>Salute</h3>
+        <ul>
+          <li>Nessun vaccino obbligatorio per chi arriva dall’Italia; consigliati, sentito il medico, epatite A e B, e secondo alcune fonti tifo.</li>
+          <li>Dengue, zika e chikungunya presenti nel Paese; per São Vicente e Santo Antão non ci sono dati specifici e la malaria non vi è segnalata. Repellente per le zanzare.</li>
+        </ul>
+      </div>
+
+      <div class="card">
+        <h3>Soldi</h3>
+        <ul>
+          <li>Escudo capoverdiano (CVE), cambio fisso: 1 € = 110,265 CVE.</li>
+          <li>Le carte funzionano negli alberghi principali e ai bancomat; molti ristoranti, negozi e alloggi piccoli vogliono contanti.</li>
+          <li>Gli escudi non si possono portare dall’estero: si cambiano o si prelevano lì. Conviene farlo a Mindelo prima del traghetto, perché su Santo Antão i bancomat sono pochi.</li>
+        </ul>
+      </div>
+
+      <div class="card">
+        <h3>Meteo di dicembre</h3>
+        <ul>
+          <li>São Vicente: 21–27 °C, quasi niente pioggia, vento da nord-est costante.</li>
+          <li>Santo Antão (costa): 18–23 °C; in quota e nella valle di Paúl più fresco, con nuvole e qualche pioggia.</li>
+          <li>Mare: tra 20 e 25 °C secondo le fonti.</li>
+          <li>Per le escursioni: vestirsi a strati, giacca antivento e antipioggia, scarpe con suola scolpita, almeno 2 litri d’acqua.</li>
+        </ul>
+      </div>
+
+      <div class="card">
+        <h3>Traghetto Mindelo–Porto Novo</h3>
+        <ul>
+          <li>Due compagnie, CV Interilhas e Nôs Ferry, ciascuna con due corse al giorno per senso; circa un’ora.</li>
+          <li>Circa 1.511 CVE (14 €) a persona, prezzo da confermare.</li>
+          <li>Biglietti online sui siti delle compagnie o alla biglietteria del porto, con documento. Gli orari cambiano ogni sei settimane: ricontrollarli a ridosso della partenza.</li>
+          <li>Da prendere: 4 dicembre al mattino (andata) e 10 dicembre (ritorno).</li>
+        </ul>
+      </div>
+
+      <div class="card">
+        <h3>Spese già note, a testa</h3>
+        <ul>
+          <li>Tassa aeroportuale d’ingresso: 3.400 CVE (31 €).</li>
+          <li>Traghetto, andata e ritorno: circa 3.000 CVE (28 €).</li>
+          <li>Tartarughe con i pescatori: circa 25 €.</li>
+          <li>Taxi di montagna del 4 dicembre, quota: circa 1.100 CVE (10 €).</li>
+          <li>Minibus da Ponta do Sol al porto: circa 1.100 CVE (10 €).</li>
+          <li>Taxi tra aeroporto e Mindelo, due volte, quota: circa 550 CVE (5 €).</li>
+          <li>Taxi notturno a Lisbona, se si dorme in centro, quota: circa 5 €.</li>
+          <li><b>Totale: circa 115 €.</b> Prezzi di alloggi e pasti: non ancora cercati.</li>
+        </ul>
+      </div>
+
+    </div>
+  </section>
+
+  <section id="fonti">
+    <h2>Fonti e crediti</h2>
+    <div class="cols two">
+      <div class="card">
+        <h3>Fonti consultate</h3>
+        <ul class="small">
+          <li>Viaggiare Sicuri: <a href="https://www.viaggiaresicuri.it/schede_paese/pdf/CPV.pdf" rel="noopener noreferrer" target="_blank">scheda Capo Verde</a></li>
+          <li>Traghetti: <a href="https://bela-vista.net/Ferry.aspx" rel="noopener noreferrer" target="_blank">bela-vista.net</a>, <a href="https://nosferry.com/" rel="noopener noreferrer" target="_blank">nosferry.com</a>, <a href="https://www.capeverde.com/travel-tips/ferries" rel="noopener noreferrer" target="_blank">capeverde.com</a></li>
+          <li>Metro di Lisbona: <a href="https://www.metrolisboa.pt/viajar/horarios-e-frequencias/" rel="noopener noreferrer" target="_blank">orari</a></li>
+          <li>Sentieri: <a href="https://www.visorando.com/en/walk-du-cratere-cova-a-la-route-de-lombinho-d/" rel="noopener noreferrer" target="_blank">Cova–Lombinho</a>, <a href="https://www.visorando.com/en/walk-de-ponta-do-sol-a-cha-de-igreja-par-la-c/" rel="noopener noreferrer" target="_blank">Ponta do Sol–Chã de Igreja</a>, <a href="https://en.wikivoyage.org/wiki/Santo_Ant%C3%A3o" rel="noopener noreferrer" target="_blank">Wikivoyage Santo Antão</a></li>
+          <li>Basi e trasporti a Santo Antão: <a href="https://www.indietraveller.co/santo-antao-travel-guide/" rel="noopener noreferrer" target="_blank">indietraveller.co</a></li>
+          <li>São Vicente e tartarughe: <a href="https://www.bartsboekje.com/en/bezienswaardigheden-sao-vicente-kaapverdie/" rel="noopener noreferrer" target="_blank">Bart’s Boekje</a>, <a href="https://www.cabomundo.com/activities-sao-vicente/boat-trip-turtle-tour" rel="noopener noreferrer" target="_blank">Cabo Mundo</a></li>
+          <li>Musica dal vivo: <a href="https://thetripverdict.com/cape-verde-live-music-venues" rel="noopener noreferrer" target="_blank">The Trip Verdict</a>, <a href="https://www.bartsboekje.com/en/mindelo-sao-vicente-bars-live-muziek" rel="noopener noreferrer" target="_blank">Bart’s Boekje</a>, <a href="https://en.wikivoyage.org/wiki/Mindelo" rel="noopener noreferrer" target="_blank">Wikivoyage Mindelo</a></li>
+          <li>Meteo: <a href="https://weatherspark.com/y/31474/Average-Weather-in-Mindelo-Cape-Verde-Year-Round" rel="noopener noreferrer" target="_blank">WeatherSpark</a></li>
+          <li>Da leggere: <a href="https://www.iviaggidimanuel.com/2026/01/capo-verde-8-giorni-itinerario.html" rel="noopener noreferrer" target="_blank">itinerario di 8 giorni</a></li>
+        </ul>
+      </div>
+      <div class="card">
+        <h3>Crediti delle foto</h3>
+        <p class="small muted">Foto ridimensionate. Le licenze CC BY-SA richiedono di citare l’autore e di condividere con la stessa licenza.</p>
+        <ul class="credits">
+          <li>Copertina, <a href="https://commons.wikimedia.org/wiki/File:Mindelo,_S%C3%A3o_Vicente,_Cape_Verde_(16696353652).jpg" rel="noopener noreferrer" target="_blank">Mindelo, São Vicente</a>: Caroline Granycome, <a href="https://creativecommons.org/licenses/by-sa/2.0" rel="noopener noreferrer" target="_blank">CC BY-SA 2.0</a></li>
+          <li><a href="https://commons.wikimedia.org/wiki/File:Praia_da_Laginha,_Mindelo,_S%C3%A3o_Vicente,_Cape_Verde,_2025.jpg" rel="noopener noreferrer" target="_blank">Praia da Laginha</a>: VanSky Studio, <a href="https://creativecommons.org/licenses/by-sa/4.0" rel="noopener noreferrer" target="_blank">CC BY-SA 4.0</a></li>
+          <li><a href="https://unsplash.com/photos/brown-turtle-swimming-underwater-L-2p8fapOA8" rel="noopener noreferrer" target="_blank">Tartaruga marina</a>: Wexor Tmg su Unsplash, <a href="https://unsplash.com/license" rel="noopener noreferrer" target="_blank">Unsplash License</a></li>
+          <li><a href="https://commons.wikimedia.org/wiki/File:Estr._Ba%C3%ADa_das_Gatas_-_Calhau,_Cape_Verde_-_panoramio.jpg" rel="noopener noreferrer" target="_blank">Costa tra Calhau e Baía das Gatas</a>: Rainer Strehl, <a href="https://creativecommons.org/licenses/by-sa/3.0" rel="noopener noreferrer" target="_blank">CC BY-SA 3.0</a></li>
+          <li><a href="https://commons.wikimedia.org/wiki/File:Santo_Ant%C3%A3o_294A8976_Cova.jpg" rel="noopener noreferrer" target="_blank">Cratere di Cova</a>: Christian Pirkl, <a href="https://creativecommons.org/licenses/by-sa/4.0" rel="noopener noreferrer" target="_blank">CC BY-SA 4.0</a></li>
+          <li><a href="https://commons.wikimedia.org/wiki/File:Vale_do_Pa%C3%BAl,_Santo_Ant%C3%A3o,_Cape_Verde.jpg" rel="noopener noreferrer" target="_blank">Vale do Paúl</a>: CaptainDarwin, <a href="https://creativecommons.org/licenses/by-sa/4.0" rel="noopener noreferrer" target="_blank">CC BY-SA 4.0</a></li>
+          <li><a href="https://commons.wikimedia.org/wiki/File:Ponta_do_sol.JPG" rel="noopener noreferrer" target="_blank">Ponta do Sol</a>: Quiebrajano, <a href="https://creativecommons.org/licenses/by-sa/3.0" rel="noopener noreferrer" target="_blank">CC BY-SA 3.0</a></li>
+          <li><a href="https://commons.wikimedia.org/wiki/File:Stra%C3%9Fe_nach_Fontainhas,_Santo_Antao.JPG" rel="noopener noreferrer" target="_blank">Sentiero verso Fontainhas</a>: Herbert wie, <a href="https://creativecommons.org/licenses/by-sa/4.0" rel="noopener noreferrer" target="_blank">CC BY-SA 4.0</a></li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+</main>
+
+<footer>
+  <div class="wrap">Programma in aggiornamento: prezzi, orari e disponibilità vanno riconfermati a ridosso della partenza.</div>
+</footer>
+
+</body>
+</html>
